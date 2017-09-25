@@ -60,3 +60,11 @@
 .footer__address {
 	text-align: center;
 }
+
+@media(min-width: 800px) {
+
+	.footer {
+		padding-top: 93px;
+		padding-bottom: 129px;
+	}
+}

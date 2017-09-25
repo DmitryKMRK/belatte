@@ -6,3 +6,10 @@
 	margin: 0 auto;
 	background: url("../img/decor.svg") no-repeat center;
 }
+
+@media(min-width: 800px) {
+	.decor {
+		padding-top: 61px;
+		padding-bottom: 61px;
+	}
+}

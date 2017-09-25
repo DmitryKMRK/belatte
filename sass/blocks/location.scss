@@ -16,6 +16,7 @@
 .location__info {
 	box-sizing: border-box;
 	padding-left: 20px;
+	padding-right: 20px;
 	padding-bottom: 33px;
 	background: $accent;
 }
@@ -55,4 +56,25 @@
 .location__list-time {
 	font-family: "Lato";
 	font-size: 16px;
+}
+
+@media(min-width: 800px) {
+
+	.location__heading {
+		margin-bottom: 54px;
+	}
+
+	.location__content {
+		flex-direction: row;
+	}
+
+	.location__info {
+		width: 33.33%;
+		padding-top: 30px;
+		padding-bottom: 0;
+	}
+
+	.location__map {
+		width: 66.66%;
+	}
 }

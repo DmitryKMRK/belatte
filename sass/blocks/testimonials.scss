@@ -137,3 +137,20 @@
 		border: 1px solid #ececec;
 	}
 }
+
+@media(min-width: 800px) {
+
+	.testimonials__heading {
+		margin-bottom: 54px;
+	}
+
+	.testimonials__content {
+		flex-direction: row;
+	}
+
+	.testimonials__img {
+		width: 410px;
+		height: 425px;
+		background: url("../img/testimonials-back.jpg") center;
+	}
+}

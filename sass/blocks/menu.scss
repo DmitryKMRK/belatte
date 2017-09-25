@@ -89,3 +89,17 @@
 .menu__item-price {
 	font-weight: 500;
 }
+
+@media(min-width: 800px) {
+
+	.menu__cats {
+		margin-top: 33px;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.menu__cat:nth-of-type(2n) {
+		margin-left: auto;
+	}
+}
