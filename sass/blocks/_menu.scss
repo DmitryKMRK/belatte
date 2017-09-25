@@ -103,3 +103,10 @@
 		margin-left: auto;
 	}
 }
+
+@media(min-width: 1300px) {
+
+	.menu__cat:nth-of-type(2n) {
+		margin-right: auto;
+	}
+}

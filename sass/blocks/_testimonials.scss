@@ -151,6 +151,20 @@
 	.testimonials__img {
 		width: 410px;
 		height: 425px;
-		background: url("../img/testimonials-back.jpg") center;
+		background: url("../img/testimonials-back.jpg") no-repeat;
+		background-position: -350px 0px;
+		background-size: cover;
+	}
+}
+
+@media(min-width: 1300px) {
+
+	.testimonials__img {
+		width: 66.66%;
+		background-position: center;
+	}
+
+	.testimonials__slider {
+		width: 33.33%;
 	}
 }

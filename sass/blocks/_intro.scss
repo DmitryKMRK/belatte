@@ -31,3 +31,11 @@
 		font-size: 32px;
 	}
 }
+
+@media(min-width: 1300px) {
+
+	.intro__description {
+		width: 755px;
+		margin: 0 auto;
+	}
+}
