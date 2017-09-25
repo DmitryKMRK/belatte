@@ -1,0 +1,139 @@
+.testimonials {
+	margin-bottom: 19px;
+}
+
+.testimonials__heading {
+	font-size: 32px;
+	font-weight: 700;
+	color: #28211f;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.testimonials__content {
+	display: flex;
+	flex-direction: column;
+}
+
+.testimonials__slider {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	box-sizing: border-box;
+	width: 360px;
+	height: 425px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	position: relative;
+	background: $dark;
+}
+
+.testimonials__slide {
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 98px;
+	left: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+	transition: 0.9s all;
+
+	&--active {
+		opacity: 1;
+	}
+
+	&::before {
+		font-size: 90px;
+		font-weight: 700;
+		color: #3f3736;
+		position: absolute;
+		left: -40px;
+		top: -110px;
+	}
+
+	&--1::before {
+		content: ".01";
+	}
+
+	&--2::before {
+		content: ".02";
+	}
+
+	&--3::before {
+		content: ".03";
+	}
+
+	&::after {
+		content: ",,";
+		font-size: 150px;
+		font-weight: 900;
+		color: #3f3736;
+		position: absolute;
+		right: -40px;
+		bottom: -80px;
+	}
+}
+
+.testimonials__slide-img {
+	width: 84px;
+	height: 84px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+
+	&--1 {
+		background-image: url("../img/slide1.jpg");
+	}
+
+	&--2 {
+		background-image: url("../img/slide2.jpg");
+	}
+
+	&--3 {
+		background-image: url("../img/slide3.jpg");
+	}
+}
+
+.testimonials__slide-name {
+	font-size: 20px;
+	font-weight: 700;
+	color: $accent;
+	margin-top: 13px;
+	margin-bottom: 0;
+}
+
+.testimonials__slide-description {
+	margin-top: 12px;
+	text-align: center;
+	font-family: "Lato";
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.testimonials__slider-controls {
+	width: 60px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.testimonials__slider-controls-item {
+	box-sizing: border-box;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #ececec;
+	cursor: pointer;
+	transition: 0.1s all;
+
+	&--active {
+		width: 13px;
+		height: 13px;
+		background: none;
+		border: 1px solid #ececec;
+	}
+}

@@ -1,0 +1,37 @@
+@mixin h1-desktop {
+	font-weight: 700;
+	font-size: 27px;
+	line-height: 30px;
+	color: #000000;
+	text-align: center;
+}
+
+@mixin h2-mobile {
+	font-weight: 700;
+	font-size: 17px;
+	line-height: 24px;
+	color: #000000;
+}
+
+@mixin h1-tablet {
+	font-weight: 700;
+	font-size: 43px;
+	line-height: 50px;
+	color: #000000;
+	text-align: center;
+}
+
+@mixin h2-tablet {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+@mixin h1-desktop {
+	font-weight: 700;
+	font-size: 53px;
+	line-height: 57px;
+	color: #000000;
+	text-align: center;
+}

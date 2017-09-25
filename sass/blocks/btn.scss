@@ -1,0 +1,42 @@
+.btn {
+	font-family: "Lato";
+	display: block;
+	box-sizing: border-box;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.4s all;
+
+	&--header {
+		margin: 0 auto;
+		width: 185px;
+		border: 2px solid #ffffff;
+		font-size: 13px;
+		line-height: 50px;
+		font-weight: 900;
+		color: #ffffff;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover {
+			background: #ffffff;
+			color: $dark;
+		}
+	}
+
+	&--menu {
+		margin: 0 auto;
+		width: 232px;
+		border: 2px solid $dark;
+		font-size: 13px;
+		line-height: 50px;
+		font-weight: 900;
+		color: $dark;
+		text-decoration: none;
+		text-transform: uppercase;
+
+		&:hover {
+			background: $dark;
+			color: #ffffff;
+		}
+	}
+}
